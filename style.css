@@ -15,3 +15,22 @@
     background-color: aqua;
     .logo_title, .navbar ul li a {color: #fff;}
  }
+ .navbar ul{
+   display: flex;
+   align-items: center;
+   list-style: none;
+ }
+
+.navbar ul li a{
+   padding: 12px;
+   margin: 0 6px;
+}
+
+.navbar ul li a:hover{
+   color: #fff;
+}
+
+section{
+   height: 100vh;
+   background: radial-gradient(rgb(139,195,245),#1294b8);
+}
