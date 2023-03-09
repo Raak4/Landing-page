@@ -136,4 +136,30 @@ header > section{
    padding: 0 0 3em 0;
 }
 
+header article{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    padding: 3em 0 3em 2em;
+
+    gap: 2em;
+    width: 50vh;
+    color: #252525;
+}
+
+header article p{
+   font-size: 1.3em;
+   padding: 0 3.2em 0 0 ;
+   font-weight: 500;
+}
+
+header aside{
+   width: 40%;
+}
+
+header h2{
+   font-size: 3.5em;
+}
+
+
 
