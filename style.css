@@ -221,3 +221,28 @@ main{
 .titlewhite p{
    filter: invert(100);
 }
+
+.title h2{
+   color: var(--mainColor);
+   font-size: 2em;
+   font-weight: 800;
+   padding-top: 4%;
+}
+
+.title p{
+   text-align: center;
+   font-size: 1.2em;
+   color:rgb(37, 36, 36);
+}
+
+/* PRODUCTS FEATURES */
+.productsFeatures{
+   height: auto;
+   width:  100%;
+}
+
+/* PRODUCTS FEATURES */
+.productsFeatures{
+    height: auto;
+    width:  100%;
+}
