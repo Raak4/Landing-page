@@ -41,7 +41,7 @@
 
 header{
    height: auto;
-   background: radial-gradient(rgba(0, 0, 0, 0.2), var(--mainColor));
+   background: radial-gradient(rgb(139, 195, 245),#1294b8);
 }
 
 nav{
@@ -164,7 +164,7 @@ header h2{
 #subscribe{
    display: flex;
    align-items: center;
-   width: 80%;
+   width: 30%;
    position: relative;
 }
 
@@ -190,5 +190,16 @@ header h2{
    background-color: var(--mainColor);
    transition: 1s;
 }
+
+#subscribe input[type="submit"]:hover{
+   color: #202020;
+}
+/* END ARTICLE */
+/* END HEADER */
+/* MAIN */
+main{
+   width: 100%;
+}
+
 
 
